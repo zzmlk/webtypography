@@ -1,0 +1,36 @@
+.box1 {
+    display: relative;
+    background-color:cornsilk;
+    width: 25rem;
+    height: 25rem;
+    font-size: 2rem;
+    text-align: left;
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+  }
+  
+.box2 {
+    display: relative;
+    background-color: blanchedalmond;
+    width: 25rem;
+    height: 25rem;
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  
+  .container {
+    align-items: center;
+    display: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
