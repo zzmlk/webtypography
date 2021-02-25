@@ -19,6 +19,7 @@
     .footer {
         height: 10rem;
     }
+    /* mainsection */
     
     .container {
         /* border: solid 1px red; */
@@ -30,7 +31,8 @@
         padding: 6rem;
     }
     
-    .blur {
+    .blur,
+    p {
         position: absolute;
         font-family: franklin-gothic-condensed, sans-serif;
         font-weight: 600;
@@ -46,28 +48,59 @@
         -webkit-backdrop-filter: blur(5.5px);
     }
     
+    p {
+        margin: 0;
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+    
     .blankline {
         width: 100%;
         height: 21px;
     }
+    /* boxes */
     
-    .title {
+    .title.fullscreen {
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .title,
+    .p1 {
         padding: 40px 30px 0px;
         top: 18%;
         left: 38%;
         text-align: right;
-        z-index: 4;
+        z-index: -1;
     }
     
-    .author {
+    .p1 {
+        z-index: 1;
+    }
+    
+    .p2 {
+        z-index: -2;
+    }
+    
+    .author,
+    .p2 {
         padding: 10px 30px 40px;
         top: 10%;
         left: 29%;
         text-align: left;
-        z-index: 3;
+        z-index: -3;
     }
     
-    .box1 {
+    .p3 {
+        z-index: -4;
+    }
+    
+    .box1,
+    .p3 {
         padding: 40px 40px 0px;
         top: 18%;
         left: 23%;
@@ -76,10 +109,15 @@
         line-height: 21px;
         letter-spacing: 0.34px;
         text-align: left;
-        z-index: 2;
+        z-index: -5;
     }
     
-    .box2 {
+    .p4 {
+        z-index: -6;
+    }
+    
+    .box2,
+    .p4 {
         height: 520px;
         padding: 60px 40px;
         top: 26%;
@@ -89,10 +127,15 @@
         line-height: 21px;
         letter-spacing: 0.34px;
         text-align: left;
-        z-index: 1;
+        z-index: -7;
     }
     
-    .box3 {
+    .p5 {
+        z-index: -8;
+    }
+    
+    .box3,
+    .p5 {
         height: 747px;
         padding: 80px 36px 84px;
         top: -3%;
@@ -101,10 +144,15 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: 0;
+        z-index: -9;
     }
     
-    .box4 {
+    .p6 {
+        z-index: -10;
+    }
+    
+    .box4,
+    .p6 {
         height: 393px;
         padding: 44px 36px;
         top: 8%;
@@ -113,10 +161,15 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: -1;
+        z-index: -11;
     }
     
-    .box5 {
+    .p7 {
+        z-index: -12;
+    }
+    
+    .box5,
+    .p7 {
         height: 515px;
         padding: 58px 36px;
         top: 40%;
@@ -125,10 +178,15 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: -2;
+        z-index: -12;
     }
     
-    .box6 {
+    .p8 {
+        z-index: -13;
+    }
+    
+    .box6,
+    .p8 {
         height: 568px;
         padding: 63px 36px;
         top: 10%;
@@ -137,10 +195,15 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: -3;
+        z-index: -14;
     }
     
-    .box7 {
+    .p9 {
+        z-index: -15;
+    }
+    
+    .box7,
+    .p9 {
         height: 680px;
         padding: 76px 36px;
         top: 14%;
@@ -149,10 +212,15 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: -4;
+        z-index: -16;
     }
     
-    .box8 {
+    .p10 {
+        z-index: -17;
+    }
+    
+    .box8,
+    .p10 {
         height: 462px;
         padding: 52px 36px;
         top: 1%;
@@ -161,10 +229,15 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: -5;
+        z-index: -18;
     }
     
-    .box9 {
+    .p11 {
+        z-index: -19;
+    }
+    
+    .box9,
+    .p11 {
         height: 357px;
         padding: 40px 36px;
         top: 14%;
@@ -173,10 +246,15 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: -6;
+        z-index: -20;
     }
     
-    .box10 {
+    .p12 {
+        z-index: -21;
+    }
+    
+    .box10,
+    .p12 {
         height: 357px;
         padding: 40px 36px;
         top: -8%;
@@ -185,5 +263,5 @@
         letter-spacing: 0.34px;
         line-height: 21px;
         letter-spacing: 0.34px;
-        z-index: -7;
+        z-index: -22;
     }
