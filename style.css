@@ -265,3 +265,21 @@
         letter-spacing: 0.34px;
         z-index: -22;
     }
+    /* media_query */
+    /* @media only screen and (max-width: 414px) {
+        .canvas {
+            width: 19rem;
+            height: 24rem;
+        }
+        .header,
+        .footer {
+            font-size: 0.8rem;
+        }
+    }
+    
+    @media only screen and (max-width: 320px) {
+        .canvas {
+            width: 17rem;
+            height: 22rem;
+        }
+    } */
