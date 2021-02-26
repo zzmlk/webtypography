@@ -107,7 +107,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         text-align: left;
         z-index: -5;
     }
@@ -125,7 +124,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         text-align: left;
         z-index: -7;
     }
@@ -143,7 +141,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -9;
     }
     
@@ -160,7 +157,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -11;
     }
     
@@ -177,7 +173,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -12;
     }
     
@@ -194,7 +189,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -14;
     }
     
@@ -211,7 +205,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -16;
     }
     
@@ -228,7 +221,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -18;
     }
     
@@ -245,7 +237,6 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -20;
     }
     
@@ -262,24 +253,146 @@
         font-size: 18px;
         letter-spacing: 0.34px;
         line-height: 21px;
-        letter-spacing: 0.34px;
         z-index: -22;
     }
     /* media_query */
-    /* @media only screen and (max-width: 414px) {
-        .canvas {
-            width: 19rem;
-            height: 24rem;
+    
+    @media only screen and (max-width: 414px) {
+        .title,
+        .p1 {
+            width: 264px;
+            height: 335px;
+            top: 30%;
+            left: 20%;
+            font-size: 50px;
+            letter-spacing: 1.25px;
+            line-height: 50px;
+            /* margin: 0; */
         }
-        .header,
-        .footer {
-            font-size: 0.8rem;
+        .p1 {
+            top: 40%;
+            left: 22%;
+        }
+        .author,
+        .p2 {
+            width: 250px;
+            height: 304.6px;
+            padding: 122px 12px 0px 23;
+            top: 26%;
+            left: 8%;
+            font-size: 50px;
+            letter-spacing: 1.25px;
+            line-height: 50px;
+        }
+        .box1,
+        .p3 {
+            width: 264px;
+            height: 458px;
+            padding: 19px 12px 9px 17px;
+            top: 28%;
+            left: 15%;
+            font-size: 13px;
+            line-height: 17px;
+            letter-spacing: 0.2px;
+        }
+        .box2,
+        .p4 {
+            width: 272px;
+            height: 489px;
+            padding: 16px 16px 10px;
+            top: 18%;
+            left: 20%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        .box3,
+        .p5 {
+            width: 318px;
+            height: 635px;
+            padding: 19px 10px 0px 18px;
+            top: 0%;
+            left: 20%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        .box4,
+        .p6 {
+            width: 240px;
+            height: 440px;
+            padding: 18px 16px 11px;
+            top: 30%;
+            left: 20%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        .box5,
+        .p7 {
+            width: 240px;
+            height: 542px;
+            padding: 18px 16px 5px;
+            top: 10%;
+            left: 8%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        .box6,
+        .p8 {
+            width: 251px;
+            height: 592px;
+            padding: 9px 11px 20px 16px;
+            top: 20%;
+            left: 7%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        /* start here */
+        .box7,
+        .p9 {
+            width: 251px;
+            height: 592px;
+            padding: 9px 11px 20px 16px;
+            top: 20%;
+            left: 7%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        .box8,
+        .p10 {
+            width: 251px;
+            height: 592px;
+            padding: 9px 11px 20px 16px;
+            top: 20%;
+            left: 7%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        .box9,
+        .p11 {
+            width: 251px;
+            height: 592px;
+            padding: 9px 11px 20px 16px;
+            top: 20%;
+            left: 7%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
+        }
+        .box10,
+        .p12 {
+            width: 251px;
+            height: 592px;
+            padding: 9px 11px 20px 16px;
+            top: 20%;
+            left: 7%;
+            font-size: 13px;
+            letter-spacing: 0.2px;
+            line-height: 17px;
         }
     }
-    
-    @media only screen and (max-width: 320px) {
-        .canvas {
-            width: 17rem;
-            height: 22rem;
-        }
-    } */
