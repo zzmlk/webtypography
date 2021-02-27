@@ -277,6 +277,8 @@
             /* margin: 0; */
         }
         .p1 {
+            backdrop-filter: none;
+            background-color: transparent;
             top: 40%;
             left: 22%;
         }
