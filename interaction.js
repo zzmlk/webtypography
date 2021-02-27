@@ -10,12 +10,13 @@ $(document).ready(function() {
         clickCount++;
     });
 
-    // $('.p2').click(function(e) {
-    //     if (clickCount % 2 == 0) {
-    //         $('.author').toggleClass('fullscreen');
-    //     } else {
-    //         $(".author, .p2").fadeOut(1000);
-    //     }
-    //     clickCount++;
-    // });
+    // this doent work
+    $('.p2').click(function(e) {
+        if (clickCount % 2 == 0) {
+            $('.author').toggleClass('fullscreen');
+        } else {
+            $(".author, .p2").fadeOut(1000);
+        }
+        clickCount++;
+    });
 });
