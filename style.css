@@ -274,16 +274,17 @@
             height: 335px;
             top: 30%;
             left: 20%;
-            font-size: 50px;
+            font-size: 60px;
             letter-spacing: 1.25px;
             line-height: 50px;
             /* margin: 0; */
         }
         .p1 {
+            padding: 0px;
             backdrop-filter: none;
             background-color: transparent;
-            top: 40%;
-            left: 22%;
+            top: 43%;
+            left: 17%;
         }
         .author,
         .p2 {
@@ -292,7 +293,7 @@
             padding: 122px 12px 0px 23;
             top: 26%;
             left: 8%;
-            font-size: 50px;
+            font-size: 60px;
             letter-spacing: 1.25px;
             line-height: 50px;
         }
