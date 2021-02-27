@@ -79,6 +79,8 @@
     }
     
     .p1 {
+        background-color: transparent;
+        backdrop-filter: none;
         z-index: 1;
     }
     
